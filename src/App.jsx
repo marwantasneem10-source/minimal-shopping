@@ -1,5 +1,5 @@
 import './App.css';
-// 1. استدعاء الصور بتاعتك من فولدر assets
+// 1. import folders
 import logo from './icons/logo.png'; 
 import userIcon from './assets/user.png';
 import eyeIcon from './assets/eye.png'; // أيقونة العين اللي في الصورة
@@ -7,7 +7,7 @@ import eyeIcon from './assets/eye.png'; // أيقونة العين اللي في
 function App() {
   return (
     <div className="main-wrapper">
-      {/* الـ Header بالصور الحقيقية */}
+      {/*  Header  */}
       <header className="header">
         <div className="logo-area">
           <img src={logo} alt="Minimal Shopping" className="main-logo" />
@@ -16,7 +16,7 @@ function App() {
         <img src={userIcon} alt="user" className="top-user-icon" />
       </header>
 
-      {/* محتوى الصفحة */}
+      {/*content */}
       <div className="login-box">
         <h2 className="title">Hello Again!</h2>
         <p className="subtitle">Welcome Back You've Been Missed!</p>
